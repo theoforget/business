@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="stylesheet.css" rel="stylesheet">
+    <style> body {background-image: url('poles.jpg'); background-repeat: no-repeat; background-size: 130% auto;}
+        * {box-sizing: border-box;}
+        input[type=text], select, textarea {width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; resize: vertical;}
+        input[type=tel] {width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; resize: vertical;}
+        input[type=datetime-local] {width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; resize: vertical;}
+        input[type=number] {width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 4px; resize: vertical;}
+        label {padding: 12px 12px 12px 0; display: inline-block;}
+        input[type=submit] {background-color: black; color: white; padding: 12px 20px; border: none; border-radius: 4px; cursor: pointer; float: left;}
+        input[type=submit]:hover {background-color: gray;}
+        .container {border-radius: 5px; background-color: lightgray; padding: 20px;}
+        h1 {text-indent: 2em; font-size: 25px; text-align:center; font-family:optima; color: black; background-color: lightgray}
+        label{font-family: optima}
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <img src="logo.png" width="400" height=auto> 
+    <a href="schedule.html">Schedule/<br> Contact Us</a>
+    <a href="test.html">Services/<br> Packages</a>
+    <a href="home.html"> Home<br>Page </a>
+</div>
+
+<br> <br> <br> <br> <br> <br> <br>
+<br> <h1>Email us at skilessons@honed.com or call us at (123) 456-7890 </h1>
+<h1> For reservations, complete the form below and we will get back to you confirming and providing more details regarding your reservation. </h1>
+
+<div class="container" style="opacity: 0.7">
+    <form>
+        <label for="firstname">First Name</label>
+        <input type="text" placeholder="Your name..">
+        <label for="lastname">Last Name</label>
+        <input type="text" placeholder="Your last name..">
+        <label for="number">Phone Number</label>
+        <input type="tel" placeholder="Your phone number..">
+        <label for="email">Email Address</label>
+        <input type="text" placeholder="Your email address..">
+        <label for="time">Lesson Date and Time</label>
+        <input type="datetime-local" placeholder="mm/dd/yyyy">
+        <label for="time">Ski Resort</label> <br>
+        <input type="radio" name="mountain" value="diamond">
+        <label for="diamond">Diamond Peak</label>
+        <input type="radio" name="mountain" value="northstar">
+        <label for="northstar">Northstar California</label>
+        <input type="radio" name="mountain" value="palisades">
+        <label for="palisades">Palisades Tahoe</label>
+        <input type="radio" name="mountain" value="sugar">
+        <label for="sugar">Sugar Bowl</label> <br>
+        <label for="hours">Number of Hours</label> <br>
+        <input type="radio" name="hours" value="1">
+        <label for="1">1 hour</label>
+        <input type="radio" name="hours" value="2">
+        <label for="2">2 hours</label>
+        <input type="radio" name="hours" value="3">
+        <label for="3">3 hours</label>
+        <input type="radio" name="hours" value="6">
+        <label for="6">Full Day (6 hours)</label> <br>
+        <label for="experience">Experience Level</label> <br>
+        <input type="radio" name="service" value="training">
+        <label for="training">Beginner</label>
+        <input type="radio" name="service" value="race">
+        <label for="race">Intermediate</label>
+        <input type="radio" name="service" value="olympic">
+        <label for="olympic">Expert</label> <br>
+        <label for="quantity">Group Size (maximum 10)</label>
+        <input type="number" min="1" max="10"> <br> <br>
+        <input type="submit" value="Submit">
+        <br> <br>
+ </form>
+<img class="sticky" style="opacity:2" src="circle.png" alt="circle">
+
+</body>
+</html>
